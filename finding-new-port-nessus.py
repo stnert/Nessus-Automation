@@ -36,7 +36,7 @@ for i in sonuc.json()['scans']:
 				PortSayisi=len(Portkontrol.fetchall())
 				conn.close()
 				if PortSayisi<1:
-					log="Yeni Port:"+str(k['ports'].keys()[0])+"|"+str(j['hostname'])+"|"+str(datetime.datetime.now())+"\n"
+					log="New Port:"+str(k['ports'].keys()[0])+"|"+str(j['hostname'])+"|"+str(datetime.datetime.now())+"\n"
 					conn=sqlite3.connect('port.db')
 					c=conn.cursor()
 					c.execute('INSERT INTO portlar VALUES (?,?,?)',(str(k['ports'].keys()[0]),str(j['hostname']),str(datetime.datetime.now())))
