@@ -15,7 +15,7 @@ Usage: python finding-new-ip-nessus.py
 By checking the port scans made by Nessus, the port-IP-time stamp information is recorded in the database, it detects a newly opened service over the database and transmits the data to SIEM in the form of "New Port:" port-IP-time stamp.
 The result observed by SIEM is as follows:
 
-Usage: python http://finding-new-port-nessus.py/
+Usage: python finding-new-port-nessus.py
 
 <img src="https://github.com/anil-yelken/Nessus-Automation/blob/main/new_port.png">
 
