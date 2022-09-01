@@ -1,8 +1,22 @@
 # Nessus Automation
 
-Nessus Automation
+## Description
 
 Today, with the spread of information technology systems, investments in the field of cyber security have increased to a great extent. Vulnerability management, penetration tests and various analyzes are carried out to accurately determine how much our institutions can be affected by cyber threats. With Tenable Nessus, the industry leader in vulnerability management tools, an IP address that has just joined the corporate network, a newly opened port, exploitable vulnerabilities can be determined, and a python application that can work integrated with Tenable Nessus has been developed to automatically identify these processes.
+
+## Features
+
+- Finding New IP Address
+- Finding New Port
+- Finding New Exploitable Vulnerability
+
+## Installation
+
+git clone https://github.com/anil-yelken/Nessus-Automation
+cd Nessus-Automation
+sudo pip3 install requirements.txt
+
+## Usage
 
 The SIEM IP address in the codes should be changed.
 
@@ -25,3 +39,12 @@ Exploitable vulnerabilities observed by SIEM:
 Usage: python finding-exploitable-service-nessus.py
 
 <img src="https://github.com/anil-yelken/Nessus-Automation/blob/main/exploitable.png">
+
+## Contact
+
+https://twitter.com/anilyelken06
+
+https://medium.com/@anilyelken
+
+
+
